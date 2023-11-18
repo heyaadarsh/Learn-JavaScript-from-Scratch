@@ -9,7 +9,8 @@ console.log(accountId); // by using this you can print the output (O/P) on the t
 accountPassword = "12345";
 accountEmail = "ad@gmail.com";
 accountCity = "Patna";
+let accountState; // not giving any value results undefined
 
 // We can't update the value of 'accountId', coz it is defined by 'const' keyword.
 
-console.table([accountId, accountPassword, accountEmail, accountCity]); // using this function you can print multiples values in tabular form.
+console.table([accountId, accountPassword, accountEmail, accountCity, accountState]); // using this function you can print multiples values in tabular form.
