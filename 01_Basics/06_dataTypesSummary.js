@@ -13,6 +13,10 @@
 7. BigiNT
 */
 
+// Stack memory used for primitives and heap memory for non-primitive data types.
+
+
+
 const num = 10; // Number
 const number = 10.5; // Number
 let name = "RAM"; // String

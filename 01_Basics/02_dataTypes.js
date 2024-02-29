@@ -3,7 +3,7 @@
 // DATA TYPES:
 
 // INTEGER
-// Range: -(253 − 1) (Number.MIN_SAFE_INTEGER) to 253 − 1 (Number.MAX_SAFE_INTEGER)
+// Range: -(2^53 − 1) (Number.MIN_SAFE_INTEGER) to 2^53 − 1 (Number.MAX_SAFE_INTEGER)
 let num = 1234
 console.log(num);
 
