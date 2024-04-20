@@ -39,3 +39,16 @@ const obj2 = {3: "c", 4: "d"};
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
 // console.log(tinderUser.hasOwnProperty('isLogged')); //false
 
+
+// Object Destructuring
+const course = {
+    courseName: "Blogging A-Z",
+    price: "1799",
+    courseInstructor: "Agyat"
+}
+
+const {courseInstructor} = course; // Destructuring object
+console.log(courseInstructor); // Agyat
+
+const {courseInstructor: instructor} = course; // Destructuring object with different name
+console.log(instructor); // Agyat
